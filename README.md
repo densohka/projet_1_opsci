@@ -26,12 +26,12 @@ Pour déployer l’application, nous utilisons Docker Compose, un outil qui perm
 
 Voici les étapes pour déployer l’application :
 
-1.Assurez-vous que Docker et Docker Compose sont installés sur votre machine.
-2.Clonez le dépôt Git.
-3.Naviguez vers le répertoire du projet.
-4.Pour construire l'application et le site web, exécutez le script 'build.sh'.
-5.Pour lancer ultérieurement l'application et le site (déjà construits), exécutez le script 'start.sh'.
-6.Pour arrêter l'application et stopper tous les conteneurs, exécutez le script 'stop.sh'.
+1. Assurez-vous que Docker et Docker Compose sont installés sur votre machine.
+2. Clonez le dépôt Git.
+3. Naviguez vers le répertoire du projet.
+4. Pour construire l'application et le site web, exécutez le script 'build.sh'.
+5. Pour lancer ultérieurement l'application et le site (déjà construits), exécutez le script 'start.sh'.
+6. Pour arrêter l'application et stopper tous les conteneurs, exécutez le script 'stop.sh'.
 
 Pour accéder à Strapi, aller à l'adresse 'http://localhost:1337' sur votre navigateur.
 Pour accéder au site web, aller à l'adresse 'http://localhost:5173' sur votre navigateur.
@@ -64,26 +64,26 @@ Strapi est un CMS (Content Management System) headless open-source qui vous perm
 
 Voici quelques endpoints nécessaires à l'utilisation de l'application :
 
-GET index.html
-GET /assets/images/logo_login.png
-GET /admin
-GET /admin/project-type
-GET /admin/init
-POST /admin/login
-GET /admin/users/me
-GET /admin/telemetry-properties
-GET /admin/project-settings
-GET /admin/users/me/permissions
-GET /admin/information
-GET /i18n/locales
-GET /content-manager/components
-GET /content-manager/content-types
-GET /content-manager/init
-GET /content-manager/content-types-settings
-GET /content-manager/content-types/plugin::users-permissions.user/configuration
-GET /content-manager/collection-types/plugin::users-permissions.user?page=1&pageSize=10&sort=username:ASC
-GET /content-type-builder/components
-GET /content-type-builder/content-types
-GET /content-type-builder/reserved-names
+GET index.html  
+GET /assets/images/logo_login.png  
+GET /admin  
+GET /admin/project-type  
+GET /admin/init  
+POST /admin/login  
+GET /admin/users/me  
+GET /admin/telemetry-properties  
+GET /admin/project-settings  
+GET /admin/users/me/permissions  
+GET /admin/information  
+GET /i18n/locales  
+GET /content-manager/components  
+GET /content-manager/content-types  
+GET /content-manager/init  
+GET /content-manager/content-types-settings  
+GET /content-manager/content-types/plugin::users-permissions.user/configuration  
+GET /content-manager/collection-types/plugin::users-permissions.user?page=1&pageSize=10&sort=username:ASC  
+GET /content-type-builder/components  
+GET /content-type-builder/content-types  
+GET /content-type-builder/reserved-names  
 
 
