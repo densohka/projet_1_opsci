@@ -33,7 +33,7 @@ Voici les étapes pour déployer l’application :
 5. Pour lancer ultérieurement l'application et le site (déjà construits), exécutez le script 'start.sh'.
 6. Pour arrêter l'application et stopper tous les conteneurs, exécutez le script 'stop.sh'.
 
-Pour accéder à Strapi, aller à l'adresse 'http://localhost:1337' sur votre navigateur.
+Pour accéder à Strapi, aller à l'adresse 'http://localhost:1337' sur votre navigateur.  
 Pour accéder au site web, aller à l'adresse 'http://localhost:5173' sur votre navigateur.
 
 ## Déploiement
