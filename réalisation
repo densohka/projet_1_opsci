@@ -1,0 +1,21 @@
+ETAPES REALISEES:
+
+- création du dossier project_1
+- yarn create strapi-app strapi_app
+- custom settings (cf screenshot parametre appli)
+- création Dockerfile/compose.yaml
+
+- git clone https://github.com/arthurescriou/opsci-strapi-frontend.git
+- création d'un Dockerfile
+- modifcation du compose.yaml (pour lancer strapi et le site)
+- docker compose up --build
+
+# Strapi se lance bien + création admin # (sur localhost:1337)
+- création collection Product (avec paramètres demandés)
+# Création de 2 produits (de l'exemple donné) #
+
+- créer un nouveau API-token sur Strapi admin
+- modifcation du fichier conf.ts
+- docker compose up
+# Affichage des produits # (sur localhost:5173)
+
